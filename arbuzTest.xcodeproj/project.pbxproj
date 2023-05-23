@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B4275F92A1BD6BA00A89900 /* DataValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4275F82A1BD6BA00A89900 /* DataValidation.swift */; };
 		0BF140CC2A1A83140033E206 /* arbuzTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF140CB2A1A83140033E206 /* arbuzTestApp.swift */; };
 		0BF140CE2A1A83140033E206 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF140CD2A1A83140033E206 /* ContentView.swift */; };
 		0BF140D02A1A83160033E206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF140CF2A1A83160033E206 /* Assets.xcassets */; };
 		0BF140D32A1A83160033E206 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF140D22A1A83160033E206 /* Preview Assets.xcassets */; };
+		0BF140DA2A1A83F40033E206 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF140D92A1A83F40033E206 /* Shop.swift */; };
+		0BF140DC2A1A84240033E206 /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF140DB2A1A84240033E206 /* ShopItem.swift */; };
+		0BF140DE2A1A843F0033E206 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF140DD2A1A843F0033E206 /* Data.swift */; };
+		0BF140E02A1A84860033E206 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF140DF2A1A84860033E206 /* Cart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B4275F82A1BD6BA00A89900 /* DataValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataValidation.swift; sourceTree = "<group>"; };
 		0BF140C82A1A83140033E206 /* arbuzTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arbuzTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF140CB2A1A83140033E206 /* arbuzTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arbuzTestApp.swift; sourceTree = "<group>"; };
 		0BF140CD2A1A83140033E206 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0BF140CF2A1A83160033E206 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BF140D22A1A83160033E206 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0BF140D92A1A83F40033E206 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		0BF140DB2A1A84240033E206 /* ShopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItem.swift; sourceTree = "<group>"; };
+		0BF140DD2A1A843F0033E206 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		0BF140DF2A1A84860033E206 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,11 @@
 				0BF140CD2A1A83140033E206 /* ContentView.swift */,
 				0BF140CF2A1A83160033E206 /* Assets.xcassets */,
 				0BF140D12A1A83160033E206 /* Preview Content */,
+				0BF140D92A1A83F40033E206 /* Shop.swift */,
+				0BF140DB2A1A84240033E206 /* ShopItem.swift */,
+				0BF140DD2A1A843F0033E206 /* Data.swift */,
+				0BF140DF2A1A84860033E206 /* Cart.swift */,
+				0B4275F82A1BD6BA00A89900 /* DataValidation.swift */,
 			);
 			path = arbuzTest;
 			sourceTree = "<group>";
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B4275F92A1BD6BA00A89900 /* DataValidation.swift in Sources */,
+				0BF140DA2A1A83F40033E206 /* Shop.swift in Sources */,
+				0BF140E02A1A84860033E206 /* Cart.swift in Sources */,
+				0BF140DE2A1A843F0033E206 /* Data.swift in Sources */,
 				0BF140CE2A1A83140033E206 /* ContentView.swift in Sources */,
+				0BF140DC2A1A84240033E206 /* ShopItem.swift in Sources */,
 				0BF140CC2A1A83140033E206 /* arbuzTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
